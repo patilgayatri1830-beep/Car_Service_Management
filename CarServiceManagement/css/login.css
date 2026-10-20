@@ -1,0 +1,143 @@
+body{
+
+    background:url("../images/customers.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+}
+
+.login-container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-box{
+
+    width:420px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.2);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+
+}
+
+.login-box h1{
+
+    text-align:center;
+
+    color:#ffb703;
+
+    margin-bottom:10px;
+
+}
+
+.login-box p{
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:30px;
+
+}
+
+.login-box input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+.options{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+    color:white;
+
+    font-size:14px;
+
+}
+
+.options a{
+    color:#ffb703;
+}
+
+.login-box button{
+
+    width:100%;
+    padding:15px;
+    background:#ffb703;
+    color:#111;
+    border:none;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.login-box button:hover{
+    background:white;
+}
+
+.register-link{
+    text-align:center;
+    margin-top:25px;
+    color:white;
+}
+
+.register-link a{
+    color:#ffb703;
+    font-weight:bold;
+}
+.back-btn{
+    color:#ffffff;
+    text-decoration:none;
+    display:inline-block;
+    margin-bottom:20px;
+}
+.back-btn:hover{
+    color:#ffb703;
+}

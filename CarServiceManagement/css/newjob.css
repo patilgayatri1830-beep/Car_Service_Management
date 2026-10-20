@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#081321;
+}
+
+.job-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.job-box{
+    width:650px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.job-box h1{
+    text-align:center;
+    color:#ffb300;
+    margin-bottom:30px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:600;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    background:#ffb300;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff9800;
+}
+
+.back-btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:10px 25px;
+    background:#081321;
+    color:white;
+    border-radius:25px;
+}

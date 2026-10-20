@@ -1,0 +1,263 @@
+body{
+
+background:#08121f;
+
+font-family:Poppins,sans-serif;
+
+}
+
+.container{
+
+width:100%;
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:40px;
+
+}
+
+.service-box{
+
+width:650px;
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.3);
+
+}
+
+.service-box h1{
+
+text-align:center;
+
+color:#ffb703;
+
+margin-bottom:10px;
+
+}
+
+.service-box p{
+
+text-align:center;
+
+margin-bottom:30px;
+
+color:#666;
+
+}
+
+.service-box input,
+.service-box select,
+.service-box textarea{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:20px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+box-sizing:border-box;
+
+}
+
+.service-box textarea{
+
+height:120px;
+
+resize:none;
+
+}
+
+.service-box button{
+
+width:100%;
+
+padding:16px;
+
+background:#ffb703;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.service-box button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+.msg{
+
+margin-top:15px;
+
+text-align:center;
+
+font-weight:bold;
+
+}
+
+.back{
+
+display:block;
+
+text-align:center;
+
+margin-top:15px;
+
+color:#111;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}
+
+.back:hover{
+
+color:#ffb703;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("../images/payment.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.booking-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.booking-box{
+    width:420px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.booking-box h1{
+    text-align:center;
+    color:#0d6efd;
+    margin-bottom:25px;
+}
+
+.booking-box label{
+    display:block;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:6px;
+    color:#333;
+}
+
+.booking-box input,
+.booking-box select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+    outline:none;
+    transition:.3s;
+}
+
+.booking-box input:focus,
+.booking-box select:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 6px rgba(13,110,253,.4);
+}
+
+.booking-box button{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#0d6efd;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.booking-box button:hover{
+    background:#084298;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#198754;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#146c43;
+}
+
+.booking-box div{
+    font-size:15px;
+    font-weight:bold;
+}
+
+@media(max-width:500px){
+
+.booking-box{
+    width:100%;
+    padding:20px;
+}
+
+.booking-box h1{
+    font-size:26px;
+}
+
+}
